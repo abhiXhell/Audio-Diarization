@@ -8,6 +8,7 @@ This is a simple web application built with Streamlit that transcribes audio fil
 - Transcribe audio using OpenAI Whisper.
 - Perform speaker diarization using pyannote.audio.
 - Auto-detect language or select a specific language for transcription.
+- **Note:** Accurate transcription and alignment is primarily tested and expected for the languages available in the language dropdown (English, Spanish, French, German, Chinese, Japanese, Russian, Arabic, Portuguese). While Whisper can handle other languages, they may be transcribed into English.
 - Display the transcript aligned with speaker labels.
 - Provide a downloadable JSON output of the aligned transcript.
 
